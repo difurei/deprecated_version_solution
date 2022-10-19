@@ -1,4 +1,4 @@
-```
+```javascript
 "your_project_name"/android/app/src/main/AndroidManifest.xml : 
 
  <application
