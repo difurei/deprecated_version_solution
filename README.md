@@ -1,4 +1,4 @@
-`
+```
 "your_project_name"/android/app/src/main/AndroidManifest.xml : 
 
  <application
@@ -15,4 +15,4 @@ import io.flutter.embedding.android.FlutterActivity;
 public class MainActivity extends FlutterActivity {
 
 }
-`
+```
