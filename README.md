@@ -1,8 +1,8 @@
-##Solution of Deprecated Android version on Flutter
+## Solution of Deprecated Android version on Flutter
+
+### Changing in AndroidManifest
 
 ```javascript
-
-###Changing in AndroidManifest
 "your_project_name"/android/app/src/main/AndroidManifest.xml : 
 
  <application
@@ -11,8 +11,10 @@
 <meta-data
                 android:name="flutterEmbedding"
                 android:value="2" />
+```
 
-###Changing in MainActivity.java
+### Changing in MainActivity.java
+```javascript
 "your_project_name"/android/app/src/main/java/co/appbrewery/"project"/MainActivity.java :
 
 import io.flutter.embedding.android.FlutterActivity;
