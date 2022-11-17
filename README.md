@@ -14,7 +14,7 @@
 ```
 
 ### Changing in MainActivity.java
-```xml
+```java
 "your_project_name"/android/app/src/main/java/co/appbrewery/"project"/MainActivity.java :
 
 import io.flutter.embedding.android.FlutterActivity;
