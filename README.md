@@ -24,9 +24,9 @@ public class MainActivity extends FlutterActivity {
 }
 ```
 
-##Geolocator Settings
+## Geolocator Settings
 
-###Android
+### Android
 
 ```xml
 "your_project_name"/android/app/src/main/AndroidManifest.xml :
@@ -37,7 +37,7 @@ add this lines after <mainfest> tag:
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 ```
 
-###IOS
+### IOS
 ```xml
 "your_project_name"\ios\Runner\Info.plist :
 
