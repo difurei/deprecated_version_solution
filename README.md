@@ -2,7 +2,7 @@
 
 ### Changing in AndroidManifest
 
-```
+```xml
 "your_project_name"/android/app/src/main/AndroidManifest.xml : 
 
  <application
@@ -14,7 +14,7 @@
 ```
 
 ### Changing in MainActivity.java
-```
+```xml
 "your_project_name"/android/app/src/main/java/co/appbrewery/"project"/MainActivity.java :
 
 import io.flutter.embedding.android.FlutterActivity;
@@ -28,7 +28,7 @@ public class MainActivity extends FlutterActivity {
 
 ###Android
 
-```
+```xml
 "your_project_name"/android/app/src/main/AndroidManifest.xml :
 
 add this lines after <mainfest> tag:
@@ -38,7 +38,7 @@ add this lines after <mainfest> tag:
 ```
 
 ###IOS
-```
+```xml
 "your_project_name"\ios\Runner\Info.plist :
 
 add this lines in <dict> tag:
