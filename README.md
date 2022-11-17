@@ -2,7 +2,7 @@
 
 ### Changing in AndroidManifest
 
-```javascript
+```
 "your_project_name"/android/app/src/main/AndroidManifest.xml : 
 
  <application
@@ -14,7 +14,7 @@
 ```
 
 ### Changing in MainActivity.java
-```javascript
+```
 "your_project_name"/android/app/src/main/java/co/appbrewery/"project"/MainActivity.java :
 
 import io.flutter.embedding.android.FlutterActivity;
@@ -22,4 +22,29 @@ import io.flutter.embedding.android.FlutterActivity;
 public class MainActivity extends FlutterActivity {
 
 }
+```
+
+##Geolocator Settings
+
+###Android
+
+```
+"your_project_name"/android/app/src/main/AndroidManifest.xml :
+
+add this lines after <mainfest> tag:
+
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+```
+
+###IOS
+```
+"your_project_name"\ios\Runner\Info.plist :
+
+add this lines in <dict> tag:
+
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>This app needs access to location when open.</string>
+<key>NSLocationAlwaysUsageDescription</key>
+<string>This app needs access to location when in the background.</string>
 ```
